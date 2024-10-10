@@ -1,0 +1,328 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #050020;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(252, 247, 253);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #0973ba;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #0973ba;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: rgb(252, 247, 253);
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #d4e7f3;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.contenidouno h1{
+    margin-top: 190px;
+    margin-bottom: 5px;
+    font-family: "Tilt Warp";
+    text-transform: uppercase;
+    font-size: 30px
+}
+
+.contenidouno h2{
+    margin-bottom: 20px;
+    font-family: "Freeman";
+    font-size: 25px
+}
+
+.contenidouno p{
+    margin-bottom: 50px;
+    font-family: "Jost";
+    color: #d4e7f3;
+    line-height: 1.3;
+    font-size: 20px
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #000000;
+    color: #E9D04D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: "Jost";
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #0973ba;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    font-family: "Freeman";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+.figuras a:hover {
+   
+    color: #0973ba;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #446e8b;
+    padding: 50px 0;
+    border-radius: 5px;
+   }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #011d31;
+    font-family: "Tilt Warp";
+    letter-spacing: 2px;
+  }
+
+  .galeria p {
+    color: #d4e7f3;
+    text-align: center;
+    font-size: 17px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: "Jost";
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #011f33;
+    padding: 4px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #011d31;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: "Jost";
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #0973ba;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #050020;
+    color: #fff;
+    padding: 30px;
+    font-family: "Poppins";
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #d4e7f3;
+    margin: 0;
+    font-size: 10px;
+    
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d4e7f3;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
